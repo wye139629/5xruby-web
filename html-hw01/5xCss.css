@@ -317,32 +317,32 @@ a,p,h2,h3,h4,h5{
 }
 .footer-group{
     padding: 40px 0;
-    outline: 1px solid red;
     background-color: rgb(248, 248, 248);
 }
 .footer-container{
     box-sizing: border-box;
     padding: 0 50px;
-    outline: 1px solid red;
-   /* padding: 0 50px; */
 }
 .contact-info,
 .footer-content{
+    font-size: 14.4px;
     width: 0;
 }
 .contact-info{
     flex-grow: 1;
 }
-
-.contact-info li{
+.contact-info img{
+    width: 130px;
+    height: 33.82px;
+}
+.contact-info ul{
+    margin-top: 30px;
+}
+.contact-info li+li{
     margin-top: 18px;
 }
 .contact-info li .fas{
     margin-right: 12px;
-    color: rgb(145, 138, 138);
-}
-.contact-info li a{
-    text-decoration: none;
     color: rgb(145, 138, 138);
 }
 .footer-container .footer-content{
@@ -351,15 +351,14 @@ a,p,h2,h3,h4,h5{
     justify-content: flex-end;
 }
 .footer-content .footer-item{
-    margin: 0 20px;
-  
+    margin: 0 25px;
 }
 .footer-content .footer-item li{
     list-style: none;
     margin-top: 18px;
 }
 .footer-item h4{
-    font-weight: 900;
+    color: black;
 }
 .footer-item li .fab{
     color: rgb(145, 138, 138);
