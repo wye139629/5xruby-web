@@ -26,8 +26,7 @@ a,p,h2,h3,h4,h5{
     align-items: center;
 }
 .header .logo h2{
-    width: 130px;
-    font-size: 15px;
+    font-size: 16px;
     color: #d90845;
     margin-left: 10px;
 }
@@ -396,7 +395,7 @@ footer h5{
     position: relative;
     right: 25px;
     bottom: 15px;
-    color: rgb(51, 136, 248);
+    color: #d90845;
 }
 .buttom-group a .fas{
     font-size: 40px;
